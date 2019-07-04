@@ -27,5 +27,10 @@ const usersData = [
   {id: 25, name: 'Aulus Agmundr', registered: '2018/01/01', role: 'Member', status: 'Pending'},
   {id: 42, name: 'Ford Prefex', registered: '2001/05/21', role: 'Alien', status: 'Don\'t panic!'}
 ]
+const adminData=[
+{id: 0, email: 'example@gmail.com', current_signin_at: '2018/01/01', signin_count: '1', created_at:'2018/02/01'},
+{id: 0, email: 'admin@itaxi.com', current_signin_at: '2018/01/10', signin_count: '4', created_at:'2018/02/01'}
 
-export default usersData
+]
+
+export default adminData
